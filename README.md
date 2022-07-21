@@ -1,9 +1,9 @@
 # CodeChallenge
 
 ## Introduction
-Use GitHub to version control your development and send back a link to the repository with your final solution.
 Develop a command line tool which would take as input the file attached to this email and would generate a binary file which would adhere to the following format:
 
+HEADER->ENTRY-1->ENTRY-2-> ... ->ENTRY-N
 
 The format of the HEADER should be:
 struct header {
