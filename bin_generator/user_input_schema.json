@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "devices": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/device" }
+    }
+  },
+  "$defs": {
+    "device": {
+      "type": "object",
+      "required": [ "name", "mac_address", "fw_version" ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "mac_address": {
+          "type": "string"
+        },
+        "fw_version": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
